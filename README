@@ -11,7 +11,7 @@ A collection of miscellanious entropy coders, currently all range coders.
                  zero byte emitted at start of output.
 
 • exp_flux_0_bio.c — same, but uses manual block-wise I/O —
-                     insignificant perf increase, better error handling
+                     insignificant perf increase, better error handling.
 
 • exp_mahoney_32.c — same model with mahoney-style carryless range coder.
 
