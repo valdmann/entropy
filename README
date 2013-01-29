@@ -3,6 +3,8 @@ Entropy coding
 
 A collection of miscellanious entropy coders, currently all range coders.
 
+Compile with cc -O3 entropy.c CODER.c -o CODER.
+
 • exp_flux.c — fpaq-style exp weighted binary model +
                range coder with accurate carries, bytewise renorm,
                overflow detected with 64-bit mul and handled in renorm loop.
